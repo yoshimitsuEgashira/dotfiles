@@ -1,0 +1,40 @@
+[user]
+  email = foo@gmail.com # setting email
+  name = foo.bar # setting user name
+[url "auth-token@github.com/"] # for private repository go get
+  insteadOf = https://github.com/
+[core]
+  excludesfile = /Users/yoshimitsu.egashira/.gitignore_global
+[push]
+  default = current
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+[alias]
+  s = status
+  c = commit
+  cm = commit -m
+  cma = commit --amend
+  cmae = commit --allow-empty -m 'Initialize repository'
+  cmane = commit --amend --no-edit
+  co = checkout
+  cob = checkout -b
+  com = checkout master
+  b = branch
+  ba = branch -a
+  bm = branch --merged
+  bd = branch -d
+  bm = branch -m
+  d = diff
+  f = fetch
+  l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  rs = reset
+  rss = reset --soft HEAD^
+  rb = rebase
+  rbi = rebase -i
+  rbc = rebase --continue
+  rba = rebase --abort
+  ps = push
+  psf = push -f
+  pl = pull

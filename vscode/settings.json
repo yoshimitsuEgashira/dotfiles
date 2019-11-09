@@ -1,0 +1,20 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    }
+  ],
+  "eslint.autoFixOnSave": true,
+  "go.useLanguageServer": true,
+  "aws.samcli.location": "/Users/yoshimitsu.egashira/.pyenv/shims/sam",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.formatOnSave": true,
+  "git.autofetch": true
+}

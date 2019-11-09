@@ -1,0 +1,11 @@
+amazonwebservices.aws-toolkit-vscode
+dbaeumer.vscode-eslint
+donjayamanne.githistory
+eamodio.gitlens
+esbenp.prettier-vscode
+ms-azuretools.vscode-docker
+MS-CEINTL.vscode-language-pack-ja
+ms-python.python
+ms-vscode.Go
+octref.vetur
+vscode-icons-team.vscode-icons
