@@ -1,2 +1,34 @@
 add_newline = false
 
+[battery]
+full_symbol = "🔋"
+charging_symbol = "⚡️"
+discharging_symbol = "💀"
+
+[[battery.display]]
+threshold = 10
+style = "bold red"
+
+[[battery.display]]
+threshold = 30
+style = "bold yellow"
+
+[aws]
+style = "bold blue"
+symbol = "🅰 "
+displayed_items = "region"
+[aws.region_aliases]
+ap-southeast-2 = "au"
+us-east-1 = "va"
+
+[character]
+symbol = "➜"
+error_symbol = "✗"
+use_symbol_for_status = true
+
+[directory]
+truncation_length = 8
+
+[git_commit]
+disabled = false
+commit_hash_length = 7
