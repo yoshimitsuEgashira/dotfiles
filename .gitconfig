@@ -1,11 +1,9 @@
 [user]
-  email = foo@gmail.com # setting email
-  name = foo.bar # setting user name
-[url "auth-token@github.com/"] # for private repository go get
-  insteadOf = https://github.com/
+  email = 38056766+yossiee@users.noreply.github.com
+  name = yossiee
+# [url "auth-token@github.com/"] # for private repository go get
+#   insteadOf = https://github.com/
 [core]
-  excludesfile = /Users/yoshimitsu.egashira/.gitignore_global
-[push]
   default = current
 [color]
   diff = auto
