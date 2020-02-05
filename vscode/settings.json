@@ -16,5 +16,9 @@
   "aws.samcli.location": "/Users/yoshimitsu.egashira/.pyenv/shims/sam",
   "workbench.iconTheme": "vscode-icons",
   "editor.formatOnSave": true,
-  "git.autofetch": true
+  "editor.fontSize": 10,
+  "git.autofetch": true,
+  "terminal.integrated.shell.osx": "/usr/local/bin/fish",
+  "terminal.integrated.fontFamily": "Roboto Mono Light for Powerline",
+  "terminal.integrated.fontSize": 10
 }
