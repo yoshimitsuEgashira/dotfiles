@@ -4,7 +4,6 @@
 # [url "auth-token@github.com/"] # for private repository go get
 #   insteadOf = https://github.com/
 [core]
-  excludesfile = ~/.gitignore
   default = current
 [color]
   diff = auto
